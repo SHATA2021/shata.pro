@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Account</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f9;
+      color: #333;
+    }
+
+    /* شريط العلوي */
+    .header {
+      background: #007bff;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .header h1 {
+      margin: 0;
+      font-size: 2em;
+    }
+
+    /* محتوى الصفحة */
+    .account-info {
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    .account-info h2 {
+      font-size: 2em;
+      margin-bottom: 20px;
+    }
+
+    .account-info p {
+      font-size: 1.2em;
+      margin-bottom: 10px;
+    }
+
+    /* أزرار الخدمات */
+    .services {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+      margin-top: 30px;
+    }
+
+    .services a {
+      display: inline-block;
+      padding: 15px 30px;
+      font-size: 1.2em;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: transform 0.3s, opacity 0.3s;
+    }
+
+    .services a:hover {
+      transform: translateY(-5px);
+      opacity: 0.9;
+    }
+
+    .service-green { background: #4caf50; }
+    .service-blue { background: #007bff; }
+    .service-orange { background: #ff9800; }
+    .service-red { background: #f44336; }
+    .service-purple { background: #9c27b0; }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <div class="header">
+    <h1>Welcome, [Username]</h1>
+  </div>
+
+  <!-- Account Info -->
+  <div class="account-info">
+    <h2>My Account Information</h2>
+    <p><strong>Username:</strong> user123</p>
+    <p><strong>Email:</strong> user123@example.com</p>
+  </div>
+
+  <!-- Services Buttons -->
+  <div class="services">
+    <a href="#" class="service-green">Service 1</a>
+    <a href="#" class="service-blue">Service 2</a>
+    <a href="#" class="service-orange">Service 3</a>
+    <a href="#" class="service-red">Service 4</a>
+    <a href="#" class="service-purple">Service 5</a>
+  </div>
+</body>
+</html>
